@@ -1,0 +1,26 @@
+{
+  "format": "search_spsa_v1",
+  "alpha": 0.602,
+  "gamma": 0.101,
+  "A": 20.0,
+  "parameters": {
+    "aspiration_window": {"min": 16, "max": 160, "a": 18.0, "c": 10.0},
+    "aspiration_min_depth": {"min": 3, "max": 8, "a": 1.2, "c": 1.0},
+    "max_extensions_per_line": {"min": 1, "max": 4, "a": 0.8, "c": 1.0},
+    "qsearch_promotion_depth": {"min": 0, "max": 4, "a": 0.8, "c": 1.0},
+    "forced_extension_min_depth": {"min": 1, "max": 5, "a": 0.8, "c": 1.0},
+    "promotion_extension_max_depth": {"min": 2, "max": 8, "a": 1.0, "c": 1.0},
+    "lmr_min_depth": {"min": 2, "max": 6, "a": 0.8, "c": 1.0},
+    "lmr_min_move": {"min": 3, "max": 8, "a": 1.0, "c": 1.0},
+    "lmr_second_depth": {"min": 4, "max": 12, "a": 1.4, "c": 1.0},
+    "lmr_second_move": {"min": 6, "max": 18, "a": 2.0, "c": 2.0},
+    "lmr_third_depth": {"min": 8, "max": 18, "a": 1.8, "c": 2.0},
+    "lmr_third_move": {"min": 12, "max": 32, "a": 3.0, "c": 3.0},
+    "lmr_base_reduction": {"min": 1, "max": 2, "a": 0.4, "c": 1.0},
+    "lmr_second_reduction": {"min": 0, "max": 2, "a": 0.5, "c": 1.0},
+    "lmr_third_reduction": {"min": 0, "max": 2, "a": 0.5, "c": 1.0},
+    "history_bonus_scale": {"min": 8, "max": 96, "a": 12.0, "c": 8.0},
+    "history_bonus_max": {"min": 512, "max": 4096, "a": 420.0, "c": 256.0},
+    "history_malus_divisor": {"min": 1, "max": 6, "a": 1.0, "c": 1.0}
+  }
+}

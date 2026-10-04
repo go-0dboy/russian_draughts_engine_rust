@@ -1,0 +1,17 @@
+[package]
+name = "russian_draughts_classic"
+version = "1.11.1"
+edition = "2021"
+rust-version = "1.70"
+license = "MIT"
+description = "High-performance classical Russian draughts engine: bitboards, PVS alpha-beta, TT and handcrafted evaluation"
+
+[lib]
+path = "src/lib.rs"
+
+[profile.release]
+opt-level = 3
+lto = "fat"
+codegen-units = 1
+debug = false
+panic = "abort"

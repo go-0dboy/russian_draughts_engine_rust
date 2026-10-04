@@ -1,0 +1,17 @@
+/target/
+/.updates/
+/data/
+/books/
+/tablebases/
+/logs/
+*.log
+.DS_Store
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.ruff_cache/
+
+/dist*/
+*.before_*
+*.bak
